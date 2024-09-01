@@ -15,10 +15,6 @@ export const links: Array<{ platform: Platform; link: string }> = [
 		link: 'https://www.linkedin.com/in/%E6%81%AD%E6%AC%A1-%E7%89%87%E5%B9%B3-9a1051166/'
 	},
 	{
-		platform: Platform.Email,
-		link: 'kyoji.katahira@linkerlab.biz '
-	},
-	{
 		platform: Platform.Facebook,
 		link: 'https://www.facebook.com/kyoji.katahira'
 	}
