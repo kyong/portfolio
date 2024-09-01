@@ -3,9 +3,9 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Katahira';
+export const name = 'Kyoji';
 
-export const lastName = 'Kyoji';
+export const lastName = 'Katahira';
 
 export const description =' I am a software engineer who loves to create awesome applications for customers.';
 export const links: Array<{ platform: Platform; link: string }> = [
