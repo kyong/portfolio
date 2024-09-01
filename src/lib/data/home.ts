@@ -7,31 +7,21 @@ export const name = 'Katahira';
 
 export const lastName = 'Kyoji';
 
-export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
-
+export const description =' I am a software engineer who loves to create awesome applications for customers.';
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/kyong/' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
-	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
+		link: 'https://www.linkedin.com/in/%E6%81%AD%E6%AC%A1-%E7%89%87%E5%B9%B3-9a1051166/'
 	},
 	{
 		platform: Platform.Email,
-		link: 'kyoji.katahira@'
-	},
-	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
+		link: 'kyoji.katahira@linkerlab.biz '
 	},
 	{
 		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
+		link: 'https://www.facebook.com/kyoji.katahira'
 	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'vuejs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('js', 'css', 'html', 'vuejs', 'sass', 'python', 'ts', 'docker', 'aws', 'nuxt', 'reactjs');

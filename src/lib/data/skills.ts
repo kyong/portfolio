@@ -38,8 +38,7 @@ export const items = [
 	defineSkill({
 		slug: 'js',
 		color: 'yellow',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'JavaScript is a programming language that conforms to the ECMAScript specification.',
 		logo: Assets.JavaScript,
 		name: 'Javascript',
 		category: 'pro-lang'
@@ -47,8 +46,7 @@ export const items = [
 	defineSkill({
 		slug: 'ts',
 		color: 'blue',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'TypeScript is a programming language developed and maintained by Microsoft.',
 		logo: Assets.TypeScript,
 		name: 'Typescript',
 		category: 'pro-lang'
@@ -56,8 +54,7 @@ export const items = [
 	defineSkill({
 		slug: 'css',
 		color: 'blue',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.',
 		logo: Assets.CSS,
 		name: 'CSS',
 		category: 'markup-style'
@@ -65,8 +62,7 @@ export const items = [
 	defineSkill({
 		slug: 'html',
 		color: 'orange',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser.',
 		logo: Assets.HTML,
 		name: 'HTML',
 		category: 'markup-style'
@@ -74,8 +70,7 @@ export const items = [
 	defineSkill({
 		slug: 'sass',
 		color: 'pink',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets.',
 		logo: Assets.Sass,
 		name: 'Sass',
 		category: 'markup-style'
@@ -83,20 +78,92 @@ export const items = [
 	defineSkill({
 		slug: 'reactjs',
 		color: 'cyan',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'React is an open-source, front end, JavaScript library for building user interfaces or UI components.',
 		logo: Assets.ReactJs,
 		name: 'React Js',
 		category: 'library'
 	}),
 	defineSkill({
-		slug: 'svelte',
+		slug: 'python',
 		color: 'orange',
-		description: svelte,
-		logo: Assets.Svelte,
-		name: 'Svelte',
+		description: 'Python is a programming language that lets you work quickly and integrate systems more effectively.',
+		logo: Assets.Python,
+		name: 'Python',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'php',
+		color: 'orange',
+		description: 'PHP is a popular general-purpose scripting language that is especially suited to web development.',
+		logo: Assets.Unknown,
+		name: 'PHP',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'vuejs',
+		color: 'green',
+		description: 'Vue.js is a progressive framework for building user interfaces.',
+		logo: Assets.VueJs,
+		name: 'Vue Js',
 		category: 'library'
+	}),
+	defineSkill({
+		slug: 'docker',
+		color: 'blue',
+		description: 'Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.',
+		logo: Assets.Docker,
+		name: 'Docker',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'aws',
+		color: 'orange',
+		description: 'Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.',
+		logo: Assets.AWS,
+		name: 'AWS',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'firebase',
+		color: 'yellow',
+		description: 'Firebase is a platform developed by Google for creating mobile and web applications.',
+		logo: Assets.Firebase,
+		name: 'Firebase',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'laravel',
+		color: 'red',
+		description: 'Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller architectural pattern and based on Symfony.',
+		logo: Assets.Unknown,
+		name: 'Laravel',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'ruby',
+		color: 'red',
+		description: 'Ruby is an open-source and fully object-oriented programming language.',
+		logo: Assets.Unknown,
+		name: 'Ruby',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'flask',
+		color: 'green',
+		description: 'Flask is a micro web framework written in Python.',
+		logo: Assets.Flask,
+		name: 'Flask',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'nuxt',
+		color: 'green',
+		description: 'Nuxt.js is a free and open-source web application framework based on Vue.js, Node.js, Webpack, and Babel.js.',
+		logo: Assets.Nuxt,
+		name: 'Nuxt Js',
+		category: 'framework'
 	})
+
 ] as const;
 
 export const title = 'Skills';
