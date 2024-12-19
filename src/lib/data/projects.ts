@@ -30,38 +30,165 @@ export const items: Array<Project> = [
 		logo: Assets.VueJs,
 		name: '最適ワークス',
 		period: {
-			from: new Date(2022, 9, 1),
-			to: new Date(2023, 9, 1)
+			from: new Date(2021, 9, 1),
+			to: new Date(2022, 9, 1)
 		},
 		skills: getSkills('ts', 'vuejs','sass', 'python', 'html', 'docker', 'nuxt', 'reactjs'),
 		type: 'SaaS',
-		// screenshots: [
-		// 	{
-		// 		label: 'screen 1',
-		// 		src: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-		// 	},
-		// 	{
-		// 		label: '2',
-		// 		src: 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-		// 	},
-		// 	{
-		// 		label: '3',
-		// 		src: 'https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-		// 	},
-		// 	{
-		// 		label: '4',
-		// 		src: 'https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-		// 	},
-		// 	{
-		// 		label: '5',
-		// 		src: 'https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-		// 	},
-		// 	{
-		// 		label: '6',
-		// 		src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-		// 	}
-		// ]
-	}
+	},
+	{
+		slug: 'orosy',
+		color: '#00267f',
+		description:
+			'orosyは、事業向け卸し入れ通販サイトです。こちらのサイトの立ち上げを全て担当しました。',
+		shortDescription:
+			'orosyは、事業向け卸し入れ通販サイトです。こちらのサイトの立ち上げを全て担当しました。',
+		links: [{ to: 'https://retailer.orosy.com/', label: 'orosy' }],
+		logo: Assets.VueJs,
+		name: 'orosy',
+		period: {
+			from: new Date(2020, 9, 1),
+			to: new Date(2021, 9, 1)
+		},
+		skills: getSkills('ts', 'vuejs','sass', 'html', 'docker', 'nuxt', 'serverless'),
+		type: 'SaaS',
+	},
+	{
+		slug: 'ambassador',
+		color: '#7D0E27',
+		description:
+			'BtoC会員サイトの保守、追加開発を行いました。このサイトは非常に複雑で、SNSから投稿を収集し、解析等を行うサイトでした。',
+		shortDescription:
+			'BtoC会員サイトの保守、追加開発を行いました。',
+		links: [{ to: '', label: '' }],
+		logo: Assets.VueJs,
+		name: 'アンバサダーシステム',
+		period: {
+			from: new Date(2019, 9, 1),
+			to: new Date(2019, 12, 1)
+		},
+		skills: getSkills('ts', 'reactjs','sass', 'html', 'nuxt', 'serverless'),
+		type: 'SaaS',
+	},
+	{
+		slug: 'catapult',
+		color: '#DF1C50',
+		description:
+			'ECサイトの構築、保守、開発。通常のECサイトの構築を行いました。',
+		shortDescription:
+			'ECサイトの構築、保守、開発。通常のECサイトの構築を行いました。英語、中国語に対応し、社内のOAuthシステムを構築し認証サイトを別に立てました。',
+		links: [{ to: 'https://amn-catapult.com/', label: 'CATAPULT' }],
+		logo: Assets.VueJs,
+		name: 'CATAPULT',
+		period: {
+			from: new Date(2018, 9, 1),
+			to: new Date(2019, 9, 1)
+		},
+		skills: getSkills('ts', 'vuejs','sass', 'html', 'laravel'),
+		type: 'EC',
+	},
+	{
+		slug: '--3',
+		color: '#00267f',
+		description:
+			'情報アプリを開発',
+		shortDescription:
+			'Android、iOSに対応した情報アプリを開発しました。',
+		links: [{ to: '', label: '' }],
+		logo: Assets.Angular,
+		name: '情報アプリを開発',
+		period: {
+			from: new Date(2017, 12, 1),
+			to: new Date(2018, 1, 1)
+		},
+		skills: getSkills('ts', 'ionic','sass', 'angular'),
+		type: 'Android, iOS app',
+	},
+	{
+		slug: '--4',
+		color: '#00267f',
+		description:
+			'写真販売サイトの企画・構築',
+		shortDescription:
+			'写真販売サイトの企画・構築',
+		links: [{ to: 'https://minsya.com/', label: 'みんなの写真屋さん' }],
+		logo: Assets.AWS,
+		name: 'みんなの写真屋さん',
+		period: {
+			from: new Date(2016, 8, 1),
+			to: new Date(2017, 2, 1)
+		},
+		skills: getSkills('js', 'php'),
+		type: 'EC',
+	},
+	{
+		slug: '--5',
+		color: '#00267f',
+		description:
+			'年賀状サービスの構築',
+		shortDescription:
+			'年賀状サービスの構築',
+		links: [{ to: '', label: '年賀状サービスの構築' }],
+		logo: Assets.JavaScript,
+		name: '年賀状サービスの構築',
+		period: {
+			from: new Date(2016, 8, 1),
+			to: new Date(2016, 12, 1)
+		},
+		skills: getSkills('js', 'php'),
+		type: 'SaaS',
+	},
+	{
+		slug: '--6',
+		color: '#00267f',
+		description:
+			'結婚写真販売サービスの運営・機能追加',
+		shortDescription:
+			'結婚写真販売サービスの運営・機能追加',
+		links: [{ to: '', label: '結婚写真販売サービス' }],
+		logo: Assets.JavaScript,
+		name: '結婚写真販売サービス',
+		period: {
+			from: new Date(2014, 12, 1),
+			to: new Date(2016, 12, 1)
+		},
+		skills: getSkills('js', 'php'),
+		type: 'EC',
+	},
+	{
+		slug: '--7',
+		color: '#00267f',
+		description:
+			'情報発信アプリ作成',
+		shortDescription:
+			'情報発信アプリ作成',
+		links: [{ to: '', label: '情報発信アプリ' }],
+		logo: Assets.Android,
+		name: '情報発信アプリ',
+		period: {
+			from: new Date(2012, 5, 1),
+			to: new Date(2014, 7, 1)
+		},
+		skills: getSkills('java'),
+		type: 'Android app',
+	},
+	{
+		slug: '--8',
+		color: '#00267f',
+		description:
+			'アンドロイダーとは、Androidアプリを紹介する情報サイトです。このサイトを開発・運営、Wordpressからの移行を行いました。',
+		shortDescription:
+			'アンドロイダーとは、Androidアプリを紹介する情報サイトです。',
+		links: [{ to: 'https://androider.jp/', label: 'アンドロイダー' }],
+		logo: Assets.Android,
+		name: 'アンドロイダー',
+		period: {
+			from: new Date(2011, 2, 1),
+			to: new Date(2012, 10, 1)
+		},
+		skills: getSkills('js', 'php'),
+		type: 'Blog',
+	},
 ];
 
 export const title = 'Projects';

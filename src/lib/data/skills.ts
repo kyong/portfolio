@@ -162,6 +162,14 @@ export const items = [
 		logo: Assets.Nuxt,
 		name: 'Nuxt Js',
 		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'java',
+		color: 'red',
+		description: 'Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.',
+		logo: Assets.Java,
+		name: 'Java',
+		category: 'pro-lang'
 	})
 
 ] as const;
